@@ -1,5 +1,6 @@
 {
   "git": {
+    "changelog": "git log --pretty=format:\"* %s (%h)\" ${from}...${to}",
     "commit": true,
     "commitMessage": "Release ${version}",
     "tag": true,
