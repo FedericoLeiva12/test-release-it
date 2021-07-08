@@ -6,6 +6,9 @@
     "tagAnnotation": "Release ${version}",
     "push": true
   },
+  "npm": {
+    "publish": false
+  },
   "github": {
     "release": true
   },
