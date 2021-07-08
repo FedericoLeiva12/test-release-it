@@ -12,10 +12,6 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "release-it": "^14.10.0",
-    "release-it-lerna-changelog": "^3.1.0"
-  },
-  "changelog": {
-    "repo": "FedericoLeiva12/test-release-it"
+    "release-it": "^14.10.0"
   }
 }
