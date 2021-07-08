@@ -1,0 +1,21 @@
+{
+  "git": {
+    "commit": true,
+    "commitMessage": "Release ${version}",
+    "tag": true,
+    "tagAnnotation": "Release ${version}",
+    "push": true
+  },
+  "npm": {
+    "publish": false
+  },
+  "github": {
+    "release": false
+  },
+  "plugins": {
+    "release-it-lerna-changelog": {
+      "infile": "CHANGELOG.md",
+      "launchEditor": false
+    }
+  }
+}
