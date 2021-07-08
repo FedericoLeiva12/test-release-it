@@ -5,7 +5,8 @@
   "main": "index.js",
   "repo": "https://github.com/FedericoLeiva12/test-release-it.git",
   "scripts": {
-    "release": "release-it"
+    "release": "release-it",
+    "changelog": "lerna-changelog"
   },
   "keywords": [],
   "author": "",
