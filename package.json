@@ -5,6 +5,9 @@
   "main": "index.js",
   "repo": "https://github.com/FedericoLeiva12/test-release-it.git",
   "scripts": {
+    "test": "echo \"There's no test\"",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
     "release": "release-it",
     "changelog": "lerna-changelog"
   },
@@ -12,6 +15,9 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "eslint": "^7.30.0",
+    "eslint-plugin-react": "^7.24.0",
+    "husky": "^7.0.1",
     "release-it": "^14.10.0"
   }
 }
