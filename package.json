@@ -5,6 +5,7 @@
   "main": "index.js",
   "repo": "https://github.com/FedericoLeiva12/test-release-it.git",
   "scripts": {
+    "start": "node index",
     "test": "echo \"There's no test\"",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
